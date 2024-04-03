@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header/>
-      <div className='mainpage'>
+      <div className='dashboard'>
         <SideBar/>
         <MainPage/>
       </div>

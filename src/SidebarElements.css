@@ -109,9 +109,6 @@
     .siderbar-elements-section{
         height: 100vh;
     }
-    /* .links{
-        margin-top: 30vh;
-    } */
 }
 @media (max-width:860px){
     .team-container{
@@ -119,27 +116,3 @@
     }
 
 }
-/* @media (max-width:900px){
-    .links{
-        margin-top: 12vh;
-    }
-
-  }
-  @media (max-width:390px){
-    .links{
-        margin-top: 20vh;
-    }
-
-  }
-  @media (max-width:380px){
-    .links{
-        margin-top: 20vh;
-    }
-
-  }
-  @media (max-width:320px){
-    .links{
-        margin-top: 10vh;
-    }
-
-  } */
