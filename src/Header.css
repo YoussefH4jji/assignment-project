@@ -1,0 +1,66 @@
+.header-section{
+    display: flex;
+    align-items: center;
+    background-color: #4488ED;
+    color: white;
+
+}
+.header-section p{
+    margin-left: auto;
+    text-align: center;
+}
+
+.header-section div{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.header-section div button{
+    border: none;
+    background-color: #1467e1;
+    color: white;
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+    border-radius: .2rem;
+    transition: .4s;
+    font-size: 0.9rem;
+    font-weight: 600;
+    
+
+}
+.header-section div button:hover{
+    cursor: pointer;
+    background-color: #1451aa;
+}
+.close-icon{
+    font-size: 1.5rem;
+
+}
+.close-icon:hover{
+    color: red;
+}
+@media (max-width:580px) {
+    .header-section p{
+        font-size: 90%;
+    }
+    .header-section div button{
+        font-size: 90%;
+    }
+}
+@media (max-width:490px) {
+    .header-section p{
+        font-size: 80%;
+    }
+    .header-section div button{
+        font-size: 80%;
+    }
+}
+@media (max-width:420px) {
+    .header-section p{
+        font-size: 70%;
+    }
+    .header-section div button{
+        font-size: 70%;
+    }
+}
