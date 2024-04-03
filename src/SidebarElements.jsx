@@ -35,7 +35,7 @@ export default function SidebarElements(){
     return(
         <section className='siderbar-elements-section'>
             <div className="team-container">
-                <img src="./public/assets/pfp.png" alt="profile picture" />
+                <img src="./assets/pfp.png" alt="profile picture" />
                 <p>refero team</p>
                 <IoIosNotificationsOutline className='bell-icon'/>
             </div>
