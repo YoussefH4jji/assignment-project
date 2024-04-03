@@ -23,7 +23,7 @@ export default function SideBar() {
             ) : (
                 <SidebarElements/>
             )}
-            <div className='test'>
+            <div className='closed'>
                 <SidebarElements/>
             </div>
         </section>

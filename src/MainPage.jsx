@@ -15,16 +15,16 @@ export default function MainPage(){
     return(
         <section className='mainpage-section'>
             <div className="mainpage-header-container">
-                <VscBook/>
-                <MdArrowBackIos className='left-icon'/>
-                <MdArrowForwardIos/>
-                <CiLock className='lock'/>
+                <VscBook className='icon'/>
+                <MdArrowBackIos className='icon left-icon'/>
+                <MdArrowForwardIos className='icon'/>
+                <CiLock className='lock icon'/>
                 <p className='header-p'>My private channel / 👋Getting started</p>
                 <div className="share-rate">
-                <p>Share</p>
-                <FiMessageCircle className='message'/>
-                <FaStar className='star'/>
-                <BsThreeDotsVertical/>
+                <a href='#'className='nav-links'>Share</a>
+                <FiMessageCircle className='message icon'/>
+                <FaStar className='star icon'/>
+                <BsThreeDotsVertical className='icon'/>
                 </div>
             </div>
             <div className='mainpage-content'>

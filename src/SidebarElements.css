@@ -1,6 +1,7 @@
 .siderbar-elements-section{
     display: flex;
     flex-direction: column;
+    height: 95vh;
 }
 
 .team-container{
@@ -66,9 +67,12 @@
     font-size: .8rem;
     font-weight: 500;
 }
-.siderbar-elements-section p{
+.siderbar-elements-section p, .siderbar-elements-section a{
     display: flex;
     align-items: center;
+}
+.siderbar-elements-section a{
+    margin-top: 1rem;
 }
 .arrow{
     color:#444549;
@@ -77,6 +81,7 @@
 .icon{
     color:#444549;
     margin-right: .5rem;
+    cursor: pointer;
 }
 .bold{
     font-weight: 600;
@@ -91,24 +96,30 @@
     margin-left: 1.5rem;
 }
 .links{
-    /* margin-top: 70%; */
     display: flex;
     flex-direction: column;
-    align-items: start;
-    /* display: inline; */
-    justify-content: end;
-    height:40vh;
-
+    margin-top: auto;
+    margin-bottom: 2rem;
+    
 }
 @media (max-width:1100px) {
     html{
         font-size: 90%;
     }
+    .siderbar-elements-section{
+        height: 100vh;
+    }
     /* .links{
         margin-top: 30vh;
     } */
 }
-@media (max-width:900px){
+@media (max-width:860px){
+    .team-container{
+        width: 100%;
+    }
+
+}
+/* @media (max-width:900px){
     .links{
         margin-top: 12vh;
     }
@@ -131,4 +142,4 @@
         margin-top: 10vh;
     }
 
-  }
+  } */

@@ -39,9 +39,7 @@ export default function SidebarElements(){
                 <p>refero team</p>
                 <IoIosNotificationsOutline className='bell-icon'/>
             </div>
-            <div className="input-container">
-                
-                {/* <GiMetalHand className="metal-hand-icon"/> */}
+            <div className="input-container">                
                 <input type="text" placeholder={`Ask you AI assistant`}/>                
                 <div className='search-icon-container'>
                 <CiSearch className='search-icon'/>
@@ -51,16 +49,19 @@ export default function SidebarElements(){
                 <h4>Your team used 8/50 free docs</h4>
                 <p>Upgrade to create unlimited docs</p>
             </div>
-            <p>
+            <a href="#" className='nav-links'>
                 <CiClock2 className='icon'/>
                 Catch up
-            </p>
-            <p>
+
+            </a>
+
+                
+            <a href='#'className='nav-links'>
                 <TiMessages className='icon'/>
                 Discussions
-            </p>
+            </a>
             <p className='bold'>Favorites</p>
-            <p>👋Getting started</p>
+            <a href='#'className='nav-links'>👋Getting started</a>
             <p className='bold'>My channels</p>
             <div className='private-dropdow-menu'>
                 <p onClick={togglePrivateMenu}>
@@ -68,7 +69,7 @@ export default function SidebarElements(){
                     <CiLock className='icon'/> My private channel</p>
             </div>
             {
-                privateDropDown? <></>:<p className='dropdown-list'>👋Getting started</p>
+                privateDropDown? <></>:<a href='#'className='nav-links dropdown-list'>👋Getting started</a>
             }
             <div className='private-dropdow-menu'>
                 <p onClick={toggleEngineeringMenu}>
@@ -81,10 +82,10 @@ export default function SidebarElements(){
                     <PiNotebook className='icon'/>Product</p>
             </div>
             <div className='links'>
-                <p><RiUserAddLine className='icon'/> Add people</p>                
-                <p><CgTemplate className='icon'/> Templates</p>
-                <p><RiShareForward2Fill className='icon'/> Shared with me</p>
-                <p><IoArchive className='icon'/> Archive</p>
+                <a href='#'className='nav-links'><RiUserAddLine className='icon'/> Add people</a>                
+                <a href='#'className='nav-links'><CgTemplate className='icon'/> Templates</a>
+                <a href='#'className='nav-links'><RiShareForward2Fill className='icon'/> Shared with me</a>
+                <a href='#'className='nav-links'><IoArchive className='icon'/> Archive</a>
 
             </div>
         </section>
