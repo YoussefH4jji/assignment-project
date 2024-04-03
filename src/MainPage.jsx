@@ -44,7 +44,7 @@ export default function MainPage(){
                 </p>
 
             </div>
-            <h2>Collaborate with your team with these three featuers.</h2>
+            <h2>Collaborate with your team with these three featuers</h2>
             <h3>✍Docs</h3>
             <img src="./assets/mainPage.png" alt="docs" className='mainpage-img'/>
             <div className="idea-p-container">
