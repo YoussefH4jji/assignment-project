@@ -67,7 +67,7 @@
     padding: 0;
 }
 .second-paragraph{
-    margin-left: 1.2rem;
+    /* margin-left: 1.2rem; */
 }
 .mainpage-img{
     width: 50rem;
@@ -159,11 +159,13 @@
 }
 @media (max-width:450px){
     html{
-        font-size: 68%;
+        font-size: 66%;
+
     }
     .mainpage-content,.getting-started,.mainpage-img{
         width: 30rem;
     }
+    
     
 }
 @media (max-width:380px){
@@ -173,7 +175,9 @@
     .mainpage-content,.getting-started,.mainpage-img{
         width: 25rem;
     }
-    
+    .mainpage-header-container .header-p{
+        font-size: 50%;
+    }
 }
 @media (max-width:350px){
     html{

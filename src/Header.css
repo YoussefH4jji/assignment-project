@@ -64,3 +64,11 @@
         font-size: 70%;
     }
 }
+@media (max-width:385px) {
+    .header-section p{
+        font-size: 60%;
+    }
+    .header-section div button{
+        font-size: 60%;
+    }
+}

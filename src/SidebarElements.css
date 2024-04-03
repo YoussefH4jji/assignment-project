@@ -106,3 +106,21 @@
     }
 
   }
+  @media (max-width:390px){
+    .links{
+        margin-top: 40vh;
+    }
+
+  }
+  @media (max-width:380px){
+    .links{
+        margin-top: 30vh;
+    }
+
+  }
+  @media (max-width:320px){
+    .links{
+        margin-top: 10vh;
+    }
+
+  }
