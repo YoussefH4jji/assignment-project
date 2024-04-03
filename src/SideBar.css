@@ -6,7 +6,7 @@ nav{
     background-color: #f3f4f6;
     width: fit-content;
     padding: 1rem;
-    max-height: 100vh;
+    height: 100vh;
 }
 .navbar-collapse{
     display: flex;
