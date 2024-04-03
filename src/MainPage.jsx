@@ -44,9 +44,9 @@ export default function MainPage(){
                 </p>
 
             </div>
-            <h2>Collaborate with your team with these three featuers</h2>
+            <h2>Collaborate with your team with these three featuers.</h2>
             <h3>✍Docs</h3>
-            <img src="./public/assets/mainPage.png" alt="docs" className='mainpage-img'/>
+            <img src="./assets/mainPage.png" alt="docs" className='mainpage-img'/>
             <div className="idea-p-container">
             <p className='idea-p'>
             <img width="16" height="16" src="https://img.icons8.com/office/16/idea.png" alt="idea"/>
